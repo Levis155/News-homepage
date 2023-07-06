@@ -1,0 +1,220 @@
+
+@font-face {
+    font-family: "Inter-bold";
+    src: url(fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: "Inter-extra-bold";
+    src: url(fonts/static/Inter-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "Inter-regular";
+    src: url(fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: "Inter-variablefont";
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(233, 232, 232);
+}
+.news-container{
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+    left: 130px;
+    right: 130px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    box-shadow: 0, 0, 5px rgba(0, 0, 0, 0.3);
+}
+.top-section{
+    display: flex;
+}
+.top-section-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 450px;
+}
+.top-section-left img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+.top-section-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+.tsr-text{
+    font-family: Inter-regular;
+    color: hsl(236, 13%, 42%);
+    font-size: 12px;
+}
+
+
+.middle-section{
+    display: flex;
+    flex-direction: row;
+    height: 370px;
+    margin-top: 15px;
+}
+.middle-section-left{
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+}
+.msl-top{
+    flex: 1;
+    margin-bottom: 20px;
+}
+.msl-top img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.msl-bottom{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.mslb-left{
+    display: flex;
+    flex-direction: column;
+}
+.mslb-left h1{
+    font-family: Inter-extra-bold;
+    max-width: 220px;
+}
+.mslb-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 84px;
+}
+.mslb-right-div1{
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+}
+.mslb-right-div1 p{
+    font-size: 12px;
+    font-family: Inter-regular;
+    color: hsl(236, 13%, 42%);
+}
+.mslb-right-div2{
+    margin-top: 30px;
+}
+.mslb-right-div2 button{
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    width: 150px;
+    font-family: Inter-regular;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: none;
+}
+.middle-section-right{
+    background-color: hsl(240, 100%, 5%);
+    flex: 1;
+    margin-left: 32px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.new{
+    font-family: Inter-regular;
+    color: hsl(35, 77%, 62%);
+}
+.middle-section-right-div{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+}
+.middle-section-right-div h4{
+    font-family: Inter-regular;
+    color: white;
+    margin-bottom: 10px;
+}
+.middle-section-right-div p{
+    font-size: 12px;
+    font-family: Inter-regular;
+    color: hsl(233, 8%, 79%);;
+}
+.middle-section-right-div-ex{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.middle-section-right-div-ex h4{
+    font-family: Inter-regular;
+    color: white;
+    margin-bottom: 10px;
+}
+.middle-section-right-div-ex p{
+    font-size: 12px;
+    font-family: Inter-regular;
+    color: hsl(233, 8%, 79%);;
+}
+
+
+.bottom-section{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.bottom-section-div{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.bsd-left{
+    height: 80px;
+    width: 65px;
+}
+.bsd-left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bsd-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    margin-left: 15px;
+}
+.bsd-right h2{
+    font-family: Inter-extra-bold;
+    color: hsl(236, 13%, 42%);
+}
+.bsd-right h5{
+    font-family: Inter-regular;
+    font-family: Inter-extra-bold;
+}
+.bsd-right p{
+    max-width: 150px;
+    color: hsl(236, 13%, 42%);
+    font-size: 12px;
+}
