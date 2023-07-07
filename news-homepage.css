@@ -64,6 +64,10 @@ body{
     color: hsl(236, 13%, 42%);
     font-size: 12px;
 }
+.tsr-text:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+}
 
 
 .middle-section{
@@ -128,6 +132,10 @@ body{
     padding-right: 15px;
     border-style: none;
 }
+.mslb-right-div2 button:hover{
+    cursor: pointer;
+    background-color: hsl(240, 100%, 5%);
+}
 .middle-section-right{
     background-color: hsl(240, 100%, 5%);
     flex: 1;
@@ -156,6 +164,10 @@ body{
     color: white;
     margin-bottom: 10px;
 }
+.middle-section-right-div h4:hover{
+    cursor: pointer;
+    color: hsl(35, 77%, 62%);;
+}
 .middle-section-right-div p{
     font-size: 12px;
     font-family: Inter-regular;
@@ -171,6 +183,10 @@ body{
     font-family: Inter-regular;
     color: white;
     margin-bottom: 10px;
+}
+.middle-section-right-div-ex h4:hover{
+    cursor: pointer;
+    color: hsl(35, 77%, 62%);;
 }
 .middle-section-right-div-ex p{
     font-size: 12px;
@@ -212,6 +228,10 @@ body{
 .bsd-right h5{
     font-family: Inter-regular;
     font-family: Inter-extra-bold;
+}
+.bsd-right h5:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
 }
 .bsd-right p{
     max-width: 150px;
